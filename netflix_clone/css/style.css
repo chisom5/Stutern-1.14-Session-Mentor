@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section-bg {
+  background: url("../images/netflix-bg.jpg") no-repeat;
+  /* background-image: url('../assets/images/netflix-bg.jpg');
+  background-position: cover; */
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.section-bg nav {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.svg-icon-netflix-logo {
+  height: 36px;
+  width: 134px;
+  fill: #e50914;
+}
+
+.section-bg nav .signIn {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 4px;
+}
+.section1-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 50px 0px;
+  color: #fff;
+}
+
+.section1-centered .section1-centered-heading {
+  /* color: #fff; */
+  margin: 0px;
+  font-size: 3.125rem;
+  text-align: center;
+}
+.section1-centered .section1-centered-subHeading {
+  /* color: #fff; */
+  margin: 1rem 0rem;
+  font-size: 1.625rem;
+  text-align: center;
+}
+
+input{
+   min-height: inherit;
+    padding: 10px 10px 0px;
+}
+.getStarted{
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 4px;
+}
+.serchable-container{
+    height: 40px;
+    display: flex;
+}
